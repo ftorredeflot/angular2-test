@@ -1,6 +1,15 @@
 <h1>
+  <p>asi se hace un build =  ng build --target=production --base-href="/"</p>
   {{title}}
+  <form>
+    <label for="nombre">Nombre</label>
+    <input type="text" #nnombre><br>
+    <label for="edat">edat</label>
+    <input type="text" #nedat><br>
 
+    <button (click)="addUser(nnombre, nedat)">add</button>
+
+  </form>
   <app-firstcomp></app-firstcomp>
   <app-user-list></app-user-list>
 </h1>
