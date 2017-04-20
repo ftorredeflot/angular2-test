@@ -7,13 +7,15 @@ import { AppComponent } from './app.component';
 import { FirstcompComponent } from './firstcomp/firstcomp.component';
 import { UserItemComponent } from './user-item/user-item.component';
 import { UserListComponent } from './user-list/user-list.component';
+import { LluisComponent } from './lluis/lluis.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     FirstcompComponent,
     UserItemComponent,
-    UserListComponent
+    UserListComponent,
+    LluisComponent
   ],
   imports: [
     BrowserModule,
